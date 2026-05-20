@@ -2,8 +2,5 @@
   "version": 2,
   "name": "blc-stripe-backend",
   "builds": [{ "src": "stripe-server.js", "use": "@vercel/node" }],
-  "routes": [{ "src": "/(.*)", "dest": "stripe-server.js" }],
-  "env": {
-    "STRIPE_SECRET_KEY": "@stripe_secret_key"
-  }
+  "routes": [{ "src": "/(.*)", "dest": "stripe-server.js" }]
 }
