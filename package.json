@@ -1,0 +1,18 @@
+{
+  "name": "blc-stripe-backend",
+  "version": "1.0.0",
+  "description": "Stripe backend for BLC Trading AI deposits",
+  "main": "stripe-server.js",
+  "scripts": {
+    "start": "node stripe-server.js",
+    "dev": "nodemon stripe-server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "stripe": "^14.0.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
